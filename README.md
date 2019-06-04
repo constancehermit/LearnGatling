@@ -1,12 +1,10 @@
 # Gatling Workshop
 
 ## Prerequisites
-* [**Docker**](https://www.docker.com/get-started)
-* **A Text Editor**
-    * Whatever you're comfortable with :)
+* [**Docker**](https://www.docker.com/get-started) is installed 
+* You have a **Text Editor** that you're comfortable with :)
     * _(e.g.[VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/) / [Notepad++](https://notepad-plus-plus.org/))_
 
----
 
 ## Setup
 
@@ -18,6 +16,12 @@
     * `git clone https://github.com/constancehermit/GatlingWorkshop.git`
     * Or download and extract the .zip
 
-1. TODO: SUT
+## Check Setup
 
----
+The Denvazh Gatling Docker Image contains a sample simulation which we can use to test that Gatling is working:
+* `docker run -it --rm denvazh/gatling`
+* Follow the prompts, choosing Simulation 0
+* You should see the simulation run & complete: 
+    * `Simulation computerdatabase.BasicSimulation completed in 23 seconds` 
+
+### That's it! You're ready to go. :)
