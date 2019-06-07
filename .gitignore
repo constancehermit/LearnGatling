@@ -1,0 +1,4 @@
+*.log
+*.HTML
+*.DS_STORE
+/results
