@@ -4,8 +4,10 @@ We're going to be running Gatling in a Docker Container, because this allows us 
 
 ## Prerequisites
 * [**Docker**](https://www.docker.com/get-started) is installed 
-* You have a **Text Editor** that you're comfortable with :)
+* You have a **Text Editor** that you're comfortable with
     * _(e.g.[VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/) / [Notepad++](https://notepad-plus-plus.org/))_
+* You have a **Terminal** you're comfortable with
+    * _(The system default is fine)_
 
 ## Setup
 
