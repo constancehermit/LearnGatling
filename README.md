@@ -1,7 +1,5 @@
 # Load Testing with Gatling
 
-We're going to be running Gatling in a Docker Container, because this allows us to focus on learning about the tool itself without worrying about installation and configuration. Don't worry too much about understanding how Docker works if you haven't used it before, just follow the [Getting Started Guide](https://www.docker.com/get-started). 
-
 ## Prerequisites
 * [**Docker**](https://www.docker.com/get-started) is installed 
 * You have a **Text Editor** that you're comfortable with
@@ -15,8 +13,8 @@ We're going to be running Gatling in a Docker Container, because this allows us 
 
 
 * Get the [Denvazh Gatling Docker Image](https://hub.docker.com/r/denvazh/gatling) from DockerHub
-    * Ensure you pull **version 3.0.3** for compatability with this workshop
-    * `docker pull denvazh/gatling:3.0.3`
+    * Ensure you pull **version 3.2.1** for compatability with this workshop
+    * `docker pull denvazh/gatling:3.2.1`
 
 ### 2. PokeAPI, our SUT (System Under Test)
 
@@ -32,7 +30,7 @@ We're going to be running Gatling in a Docker Container, because this allows us 
     * `git clone https://github.com/constancehermit/GatlingWorkshop.git`
     * Or download and extract the .zip
 
-## Getting Started
+## Test the Setup
 
 ### Gatling
 
