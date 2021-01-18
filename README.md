@@ -2,10 +2,12 @@
 
 ## Prerequisites
 * [**Docker**](https://www.docker.com/get-started) is installed 
+    * _If you're on Windows and installing for the first time: [check the requirements](https://docs.docker.com/docker-for-windows/wsl/) \
+    you may need to [enable WSL2 and install a linux distro](https://docs.microsoft.com/en-us/windows/wsl/install-win10) first_
 * You have a **Text Editor** that you're comfortable with
     * _(e.g.[VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/) / [Notepad++](https://notepad-plus-plus.org/))_
 * You have a **Terminal** you're comfortable with
-    * _(The system default is fine)_
+    * _(The system default is fine if you don't have a preference already!)_
 
 ## Setup
 
