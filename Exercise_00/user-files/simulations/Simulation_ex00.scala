@@ -10,7 +10,7 @@ class Simulation00 extends Simulation {
   private val StarterScenarioExec = PokemonScenarios.StarterScenario
 
   setUp(
-      _StarterScenarioExec.inject(
+      StarterScenarioExec.inject(
         nothingFor(2 seconds),
         atOnceUsers(3),
         rampUsers(5) during(5 seconds)
