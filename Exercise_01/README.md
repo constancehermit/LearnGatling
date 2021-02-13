@@ -13,8 +13,8 @@
 - Write a request for info on **Charmander** from the **pokemon endpoint**
 
 ## Useful Links
-- [Gatling Documentation: HTTP Request](https://gatling.io/docs/current/http/http_request/?highlight=http%20method)
-- [PokeAPI Documentation: Pokemon Endpoint](https://pokeapi.co/docs/v2#pokemon)
+- [Gatling: HTTP Request](https://gatling.io/docs/current/http/http_request/?highlight=http%20method)
+- [PokeAPI: Pokemon Endpoint](https://pokeapi.co/docs/v2#pokemon)
 
 ---
 ## Notes
