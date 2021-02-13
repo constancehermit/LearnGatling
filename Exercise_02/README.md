@@ -1,4 +1,4 @@
-# Exercise 2: Using Requests in Scenarios
+# Exercise 2: Scenarios
 > To make reuse and maintenance as easy as possible, I've stored config, requests, and scenarios in their own packages (which you can think of as modules). To add requests to a scenario, you'll need to first  import the appropriate package.
 
 
