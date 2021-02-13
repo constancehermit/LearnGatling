@@ -12,7 +12,7 @@ Having said that, I do recommend getting a Scala Plugin for your editor (for syn
 ## Learning Goal
 - Understand how to run your simulation
 
-## Guide
+## Exercises
 
 - Open your terminal and navigate to this directory (Exercise_00)
 - Run the Simulation using the appropriate run script: 
