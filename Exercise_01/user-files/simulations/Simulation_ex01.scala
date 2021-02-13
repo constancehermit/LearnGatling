@@ -12,8 +12,7 @@ class Simulation01 extends Simulation {
   setUp(
       StarterScenarioExec.inject(
         nothingFor(2 seconds),
-        atOnceUsers(3),
-        rampUsers(5) during(5 seconds)
+        atOnceUsers(3)
         )
   )
     .protocols(

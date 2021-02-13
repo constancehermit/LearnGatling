@@ -9,4 +9,8 @@ package object PokemonRequests {
         exec(http("get bulbasaur info")
             .get("pokemon/bulbasaur")
         )
+
+    // write a GetSquirtleInfo request 
+
+    // write a GetCharmanderInfo request
 }
