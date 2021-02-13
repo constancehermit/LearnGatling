@@ -1,4 +1,4 @@
-# Exercise 2: Packages and Imports
+# Exercise 2: Using Requests in Scenarios
 > To make reuse and maintenance as easy as possible, I've stored config, requests, and scenarios in their own packages (which you can think of as modules). To add requests to a scenario, you'll need to first  import the appropriate package.
 
 
@@ -18,3 +18,6 @@
 - [Gatling: Scenario](https://gatling.io/docs/current/general/scenario/)
 - [Scala: Import](https://docs.scala-lang.org/tour/packages-and-imports.html)
 
+---
+## Notes
+> We use pauses to more closely simulate real user behaviour. Humans need a lot more thinking time between actions than machines!
