@@ -46,4 +46,5 @@ The Denvazh Gatling Docker Image contains a sample simulation which we can use t
 
 To keep everything tidy, we'll be running our SUT with Docker too. The PokeAPI GitHub page has a step-by-step on how to do this under the heading [Docker Compose](https://github.com/PokeAPI/pokeapi/). 
 * After following these steps you should see some JSON at [localhost/api/v2/](localhost/api/v2/)
-* You can run `docker stop $(docker ps -a -q)` to stop all running containers now, we'll start them up again in the workshop 
+* You can run `docker stop $(docker ps -a -q)` to stop all running containers
+* You can run `docker-compose up -d` in the PokeAPI directory to start them when you're ready
