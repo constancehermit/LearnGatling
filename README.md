@@ -1,6 +1,5 @@
 # Load Testing with Gatling
 ## Learn the Basics
----
 
 ## Prerequisites
 * [**Docker**](https://www.docker.com/get-started) is installed 
@@ -11,12 +10,9 @@
 * You have a **Terminal** you're comfortable with
     * _(The system default is fine if you don't have a preference already!)_
 
----
-
 ## Setup
 
 ### 1. Gating, our Testing Tool
-
 
 * Get the [Denvazh Gatling Docker Image](https://hub.docker.com/r/denvazh/gatling) from DockerHub
     * Ensure you pull **version 3.2.1** for compatability with this workshop
@@ -35,8 +31,6 @@
     * I put mine under /Projects/GatlingWorkshop
     * `git clone https://github.com/constancehermit/GatlingWorkshop.git`
     * Or download and extract the .zip
-
----
 
 ## Test the Setup
 
