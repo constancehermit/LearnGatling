@@ -1,8 +1,6 @@
 ## A Note on Plugins
 ---
-> I've tried to make this workshop as environment-agnostic as possible by using docker, and as such it is possible to complete using only a text editor and terminal. \
-\
-Having said that, I do recommend getting a Scala Plugin for your editor (for syntax highlighting), or if you prefer to use an IDE, you can follow the instructions in the [Gatling docs](https://gatling.io/docs/current/installation/#:~:text=Since%203.0%2C%20Gatling%20requires%20Scala%202.12.) to install the appropriate plugin there. 
+> I've tried to make this workshop as environment-agnostic as possible by using docker, and as such it is possible to complete using only a text editor and terminal. Having said that, I do recommend getting a Scala Plugin for your editor (for syntax highlighting), or if you prefer to use an IDE, you can follow the instructions in the [Gatling docs](https://gatling.io/docs/current/installation/#:~:text=Since%203.0%2C%20Gatling%20requires%20Scala%202.12.) to install the appropriate plugin there. 
 
 ---
 
@@ -15,7 +13,7 @@ Having said that, I do recommend getting a Scala Plugin for your editor (for syn
 ## Exercises
 
 - Open your terminal and navigate to this directory (Exercise_00)
-- Run the Simulation using the appropriate run script: 
+- Run the Simulation using the appropriate run script: \
 `./run_simulation_bash.sh` \
 or `./run_simulation_cmd.sh`
 - Just hit enter when prompted for a run description
