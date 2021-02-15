@@ -14,7 +14,6 @@
 `./run_simulation_bash.sh` \
 or `./run_simulation_cmd.sh`
 - Just hit enter when prompted for a run description 
----
 - (optional) Investigate the contents of the run script
 ---
 ## Notes
