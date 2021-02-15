@@ -1,4 +1,6 @@
 # Load Testing with Gatling
+## Learn the Basics
+---
 
 ## Prerequisites
 * [**Docker**](https://www.docker.com/get-started) is installed 
@@ -8,6 +10,8 @@
     * _(e.g.[VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/) / [Notepad++](https://notepad-plus-plus.org/))_
 * You have a **Terminal** you're comfortable with
     * _(The system default is fine if you don't have a preference already!)_
+
+---
 
 ## Setup
 
@@ -31,6 +35,8 @@
     * I put mine under /Projects/GatlingWorkshop
     * `git clone https://github.com/constancehermit/GatlingWorkshop.git`
     * Or download and extract the .zip
+
+---
 
 ## Test the Setup
 
