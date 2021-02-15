@@ -5,8 +5,8 @@ import io.gatling.core.Predef._
 
 package object PokemonScenarios {
 
-    val StarterScenario = scenario("Getting Info on Different Starters")
+    val PikachuScenario = scenario("Getting Info on Pikachu")
 
-        .exec(PokemonRequests.GetBulbasaurInfo)
+        .exec(PokemonRequests.GetPikachuInfo)
         .pause(3)
 }

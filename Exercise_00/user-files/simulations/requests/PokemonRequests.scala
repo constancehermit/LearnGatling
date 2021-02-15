@@ -5,8 +5,8 @@ import io.gatling.http.Predef._
 
 package object PokemonRequests {
 
-    val GetBulbasaurInfo =
-        exec(http("get bulbasaur info")
-            .get("pokemon/bulbasaur")
+    val GetPikachuInfo =
+        exec(http("get pikachu info")
+            .get("pokemon/pikachu")
         )
 }

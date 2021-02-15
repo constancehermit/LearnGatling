@@ -7,10 +7,10 @@ import scala.concurrent.duration._
 
 class Simulation01 extends Simulation {
 
-  private val StarterScenarioExec = PokemonScenarios.StarterScenario
+  private val PikachuScenarioExec = PokemonScenarios.PikachuScenario
 
   setUp(
-      StarterScenarioExec.inject(
+      PikachuScenarioExec.inject(
         nothingFor(2 seconds),
         atOnceUsers(3)
         )
