@@ -2,7 +2,7 @@
 > I've tried to make this workshop as environment-agnostic as possible by using docker, and as such it is possible to complete using only a text editor and terminal. Having said that, I do recommend getting a Scala Plugin for your editor (for syntax highlighting), or if you prefer to use an IDE, you can follow the instructions in the [Gatling docs](https://gatling.io/docs/current/installation/#:~:text=Since%203.0%2C%20Gatling%20requires%20Scala%202.12.) to install the appropriate plugin there. 
 
 # Exercise 0: Running the Simulation
-> I've included a run_simulation script to simplify things by hiding all the docker stuff. Fire and forget or go a little deeper, it's up to you! (: 
+> I've included a run_simulation script to simplify things by hiding all the docker stuff. Fire and forget or go deeper, it's up to you! (: 
 
 ## Learning Goal
 - Understand how to compile your code and run the simulation
@@ -26,12 +26,11 @@ or `./run_simulation_cmd.sh`
 
 ---
 
-## Notes
+## Further Reading
+
 > ZincCompiler is an incremental Scala Compiler. Unlike ordinary compilers (which make clean builds by re-building everything), incremental compilers only re-compile code which has changed. It aims for faster compilation without sacrificing correctness. 
 
 > Zinc is integrated in the Maven Scala Plugin as well as other common build tools, so you'll probably be using it if you add Gatling to your project after this workshop. (:
-
-## Further Reading
 
 - [ZincCompiler on Github](https://github.com/sbt/zinc)
 - [Incremental Compilers Wiki](https://en.wikipedia.org/wiki/Incremental_compiler)
