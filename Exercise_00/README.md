@@ -4,8 +4,8 @@
 # Exercise 0: Running the Simulation
 > I've included a run_simulation script to simplify things by hiding all the docker stuff. Fire and forget or go deeper, it's up to you! (: 
 
-## Learning Goal
-- Understand how to compile your code and run the simulation
+## Learn How To...
+- Compile your code & run the simulation
 
 ## Exercises
 
