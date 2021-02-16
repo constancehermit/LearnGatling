@@ -1,5 +1,4 @@
 # Load Testing with Gatling
-## Learn the Basics
 
 ## Prerequisites
 * [**Docker**](https://www.docker.com/get-started) is installed 
