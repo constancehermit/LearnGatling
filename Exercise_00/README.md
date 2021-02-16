@@ -13,8 +13,26 @@
 - Run the Simulation using the appropriate run script: \
 `./run_simulation_bash.sh` \
 or `./run_simulation_cmd.sh`
-- Just hit enter when prompted for a run description 
-- (optional) Investigate the contents of the run script
+
+> Before Gatling can execute your Simulation, it needs to compile your code using ZincCompiler. That's what you'll see first in your terminal, output from Zinc. If you have any errors in your code, here's where you'll find out!
+
+- After compilation finishes you'll be prompted to enter a run description
+- We don't need this, so just hit enter and Gatling will run the simulation. 
+
+> Results will be printed to the terminal as the simulation executes, and saved to /results once it finishes
+
+### Optional
+- Investigate the contents of the run script
+
 ---
+
 ## Notes
->If you look back through the output in the terminal, you should see some messages from ZincCompiler. In subsequent exercises, this is where you'll find out if your code has any errors! 
+> ZincCompiler is an incremental Scala Compiler. Unlike ordinary compilers (which make clean builds by re-building everything), incremental compilers only re-compile code which has changed. It aims for faster compilation without sacrificing correctness. 
+
+> Zinc is integrated in the Maven Scala Plugin as well as other common build tools, so you'll probably be using it if you add Gatling to your project after this workshop. (:
+
+## Further Reading
+
+- [ZincCompiler on Github](https://github.com/sbt/zinc)
+- [Incremental Compilers Wiki](https://en.wikipedia.org/wiki/Incremental_compiler)
+- [Crash Course: Compilers in Language Design](https://increment.com/programming-languages/crash-course-in-compilers/)
