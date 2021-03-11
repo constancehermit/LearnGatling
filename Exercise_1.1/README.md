@@ -14,7 +14,8 @@
 - Try to correct the errors
 
 > "Debugging is like being the detective in a crime movie where you are also the murderer."
-If you get stuck, you need to search for clues and leads! Where can you do that?
+
+> If you get stuck, you need to search for clues and leads! Where can you do that?
 
 - Refer back to your work in Exercise 1. Compare the code.
 - Get online and search for the error message Zinc gave you.
