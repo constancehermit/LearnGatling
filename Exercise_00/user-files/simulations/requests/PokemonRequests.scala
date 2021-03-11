@@ -7,6 +7,6 @@ package object PokemonRequests {
 
     val GetPikachuInfo =
         exec(http("get pikachu info")
-            .get("pokemon/pikachu")
+            .get("pokemon/pikachu/")
         )
 }
