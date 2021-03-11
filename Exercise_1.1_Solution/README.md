@@ -68,6 +68,6 @@
 
 # Optional Exercise
 
-> I think the best way to learn what they mean and how to resolve them (as well as making them less scary!) is to intentionally break your own code and find out what happens.
+> I think the best way to make error messages seem less scary and confusing is to intentionally trigger them. Break your code on purpose! How does the compiler react to your changes? These experiences will help when you run into the same errors in the wild!  
 
 - Break your code. Introduce typos, delete lines, see what happens! 
