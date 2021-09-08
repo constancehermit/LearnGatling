@@ -20,11 +20,8 @@ class Simulation01 extends Simulation {
     .protocols(
       Config.httpProtocol
     )
-    // Optional: Define Global Pauses
-    .pauses(
-      
-    )
-    // Optional: Disable Pauses
+    // Optional: Define Global Pauses, using .Pauses()
+    // Optional: Disable Pauses, using .Pauses()
     .assertions(
     )
     
